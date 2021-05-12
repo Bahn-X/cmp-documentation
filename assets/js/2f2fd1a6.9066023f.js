@@ -1,0 +1,1 @@
+(self.webpackChunkcmp_documentation_website=self.webpackChunkcmp_documentation_website||[]).push([[258],{5356:function(u){"use strict";u.exports=JSON.parse('{"allTagsPath":"/cmp-documentation/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/cmp-documentation/blog/tags/docusaurus"}')}}]);

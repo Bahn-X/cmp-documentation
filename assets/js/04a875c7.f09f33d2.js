@@ -1,0 +1,1 @@
+(self.webpackChunkcmp_documentation_website=self.webpackChunkcmp_documentation_website||[]).push([[266],{3847:function(t){"use strict";t.exports=JSON.parse('{"allTagsPath":"/cmp-documentation/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/cmp-documentation/blog/tags/hola"}')}}]);
