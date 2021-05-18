@@ -1,1 +1,0 @@
-(self.webpackChunkcmp_documentation_website=self.webpackChunkcmp_documentation_website||[]).push([[491],{9283:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/cmp-documentation/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
