@@ -1,4 +1,4 @@
-[@bahn-x/cmp-sdk](docs/api/README.md) / OnConsentChangeCallback
+[@bahn-x/cmp-sdk](../README.md) / OnConsentChangeCallback
 
 # Interface: OnConsentChangeCallback
 
@@ -6,7 +6,7 @@ Callback for consent change listener.
 
 ## Callable
 
-▸ **OnConsentChangeCallback**(`error`: *null* \| Error, `services?`: [*Service*](docs/api/interfaces/service.md)[]): *void*
+▸ **OnConsentChangeCallback**(`error`: *null* \| Error, `services?`: [*Service*](service.md)[]): *void*
 
 Error-first callback containing (updated) services as second parameter.
 
@@ -15,6 +15,6 @@ Error-first callback containing (updated) services as second parameter.
 Name | Type | Description |
 :------ | :------ | :------ |
 `error` | *null* \| Error | Error object (if applicable)   |
-`services?` | [*Service*](docs/api/interfaces/service.md)[] | List of services.    |
+`services?` | [*Service*](service.md)[] | List of services.    |
 
 **Returns:** *void*

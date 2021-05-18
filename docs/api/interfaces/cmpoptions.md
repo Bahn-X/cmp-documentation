@@ -1,4 +1,4 @@
-[@bahn-x/cmp-sdk](docs/api/README.md) / CmpOptions
+[@bahn-x/cmp-sdk](../README.md) / CmpOptions
 
 # Interface: CmpOptions
 
@@ -20,10 +20,10 @@ window.utag_data = { ...options };
 
 ### Properties
 
-- [cmp\_disable\_reload](docs/api/interfaces/cmpoptions.md#cmp_disable_reload)
-- [cmp\_imprint\_url](docs/api/interfaces/cmpoptions.md#cmp_imprint_url)
-- [cmp\_legal\_pages](docs/api/interfaces/cmpoptions.md#cmp_legal_pages)
-- [cmp\_privacy\_url](docs/api/interfaces/cmpoptions.md#cmp_privacy_url)
+- [cmp\_disable\_reload](cmpoptions.md#cmp_disable_reload)
+- [cmp\_imprint\_url](cmpoptions.md#cmp_imprint_url)
+- [cmp\_legal\_pages](cmpoptions.md#cmp_legal_pages)
+- [cmp\_privacy\_url](cmpoptions.md#cmp_privacy_url)
 
 ## Properties
 

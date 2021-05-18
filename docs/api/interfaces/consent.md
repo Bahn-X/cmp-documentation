@@ -1,4 +1,4 @@
-[@bahn-x/cmp-sdk](docs/api/README.md) / Consent
+[@bahn-x/cmp-sdk](../README.md) / Consent
 
 # Interface: Consent
 
@@ -8,7 +8,7 @@ A user's consent.
 
 ### Properties
 
-- [status](docs/api/interfaces/consent.md#status)
+- [status](consent.md#status)
 
 ## Properties
 

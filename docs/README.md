@@ -92,7 +92,7 @@ Adding the following snippet to a website will load Tealium and initialize its d
 It is possible to configure some consent layer behaviour before loading the CMP, e.g. suppressing the UI on certain pages or disabling the auto-reload after consent changes.
 The configuration uses Tealium's data layer, the `utag_data` object (UDO).
 
-To use the configuration, add the [options](docs/api/interfaces/cmpoptions.md) to your existing `utag_data` object.
+To use the configuration, add the [options](api/interfaces/cmpoptions.md) to your existing `utag_data` object.
 Example:
 
 ```html
@@ -123,14 +123,14 @@ Depending on how script tags get loaded and configured, simply replacing the tag
 Ideally, the external script simply gets loaded by Tealium while being configured on the website (after making sure the script was properly loaded and executed).
 For most other cases, there are predefined tags available, which can be configured in the tag manager directly.
 
-There are some examples of services being migrated to Tealium and CMP in the [docs](docs) folder.
+There are some examples of services being migrated to Tealium and CMP in the `docs` folder.
 
 ## API
 
 The main purpose of this SDK is to allow programmatic interaction with the underlying CMP, which means that the basic functionality of the UI will be available through this API.
 It is _not_ meant to circumvent or replace the usage of the UI.
 
-A documentation of the Typescript API can be found here: [docs/api](docs/api/README.md).
+A documentation of the Typescript API can be found here: [docs/api](api/README.md).
 
 ### Usage
 

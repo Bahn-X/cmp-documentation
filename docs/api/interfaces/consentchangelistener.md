@@ -1,4 +1,4 @@
-[@bahn-x/cmp-sdk](docs/api/README.md) / ConsentChangeListener
+[@bahn-x/cmp-sdk](../README.md) / ConsentChangeListener
 
 # Interface: ConsentChangeListener
 
@@ -8,8 +8,8 @@ Listener for consent changes.
 
 ### Methods
 
-- [start](docs/api/interfaces/consentchangelistener.md#start)
-- [stop](docs/api/interfaces/consentchangelistener.md#stop)
+- [start](consentchangelistener.md#start)
+- [stop](consentchangelistener.md#stop)
 
 ## Methods
 

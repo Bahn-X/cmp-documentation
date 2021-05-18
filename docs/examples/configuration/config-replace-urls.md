@@ -5,7 +5,7 @@ By default, these point to the relative paths `/impressum` and `/datenschutz`.
 
 ## Using the `utag_data` object
 
-Overriding the urls can be achieved using the `utag_data` object and setting the `cmp_imprint_url` and `cmp_privacy_url` properties ([see list of options](docs/api/interfaces/cmpoptions.md)).
+Overriding the urls can be achieved using the `utag_data` object and setting the `cmp_imprint_url` and `cmp_privacy_url` properties ([see list of options](../../api/interfaces/cmpoptions.md)).
 
 Example (this could be in your template file):
 

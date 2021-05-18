@@ -1,4 +1,4 @@
-[@bahn-x/cmp-sdk](docs/api/README.md) / Service
+[@bahn-x/cmp-sdk](../README.md) / Service
 
 # Interface: Service
 
@@ -8,16 +8,16 @@ A data processing service (DPS).
 
 ### Properties
 
-- [consent](docs/api/interfaces/service.md#consent)
-- [id](docs/api/interfaces/service.md#id)
-- [name](docs/api/interfaces/service.md#name)
-- [version](docs/api/interfaces/service.md#version)
+- [consent](service.md#consent)
+- [id](service.md#id)
+- [name](service.md#name)
+- [version](service.md#version)
 
 ## Properties
 
 ### consent
 
-• **consent**: [*Consent*](docs/api/interfaces/consent.md)
+• **consent**: [*Consent*](consent.md)
 
 ___
 
