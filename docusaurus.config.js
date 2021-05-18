@@ -19,43 +19,28 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'README',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
-        //{to: '/docs/guides', label: 'Guides', position: 'left'}
-        //{
-        //  href: 'https://github.com/facebook/docusaurus',
-        //  label: 'GitHub',
-        //  position: 'right',
-        //},
       ],
     },
     footer: {
       style: 'dark',
       links: [
-        // {
-        //   title: 'Docs',
-        //   items: [
-        //     {
-        //       label: 'Tutorial',
-        //       to: '/docs/intro',
-        //     },
-        //   ],
-        // },
         {
           title: 'More',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/bahn-x/',
+              href: 'https://github.com/Bahn-X/cmp-sdk',
             },
             {
-              label: 'Impressum',
+              label: 'Imprint',
               href: 'https://www.gemeinsamgehtdas.de/imprint',
             },
             {
-              label: 'Datenschutzhinweise',
+              label: 'Privacy',
               href: 'https://www.gemeinsamgehtdas.de/privacy',
             },
           ],
@@ -73,12 +58,6 @@ module.exports = {
           // Please change this to your repo.
           //editUrl:
           //  'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          //showReadingTime: true,
-          // Please change this to your repo.
-          //editUrl:
-          //  'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
