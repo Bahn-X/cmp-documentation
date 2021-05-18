@@ -2,12 +2,12 @@
 module.exports = {
   title: 'DB Consent Management',
   tagline: 'Documentation to integrate DB Consent Layer on your website',
-  url: 'https://bahn-x.github.io/',
+  url: 'https://bahn-x.github.io',
   baseUrl: '/cmp-documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'bahn-X', // Usually your GitHub org/user name.
+  organizationName: 'Bahn-X', // Usually your GitHub org/user name.
   projectName: 'cmp-documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
