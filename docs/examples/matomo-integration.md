@@ -1,4 +1,4 @@
-# Matomo Intgeration
+# Matomo Integration
 
 This is quick task. Just remove the Matomo integration and include the Tealium script tag. We'll guide you through the process.
 
