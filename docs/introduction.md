@@ -6,14 +6,13 @@ id: introduction
 
 > Deutsche Bahn consent management platform browser SDK
 
-The goal of this SDK is to offer access to the underlying consent management platform (CMP) in the browser.
-By using a CMP, we ensure that websites use the same standardized way of managing consent, which is aligned with Konzerndatenschutz (privacy officer) according to legal requirements.
+The goal of this project is to offer Deutsche Bahn websites access to a consent management platform (CMP), by delivering a UI and a custom [SDK](https://github.com/Bahn-X/cmp-sdk).
+Using a CMP, ensures that websites use the same standardized way of managing consent, which is aligned with Konzerndatenschutz (privacy officer) according to legal requirements.
 The current CMP in use is [Usercentrics](https://usercentrics.com/de/website-consent-management/).
 
 ## How it works
 
-The CMP and this SDK will be embedded into a website via a tag manager (Tealium).
-This makes the integration of Tealium mandatory.
+The CMP and SDK will be embedded into a website via a tag manager (Tealium), which makes the integration of Tealium mandatory.
 
 Ideally, where external data processing services (DPS) are integrated with script tags (see Case 1 below), the CMP extension in the tag manager can handle most of the cases.
 For others, e.g. custom implementations, there might be the need to interact with the CMP directly via this SDK (see Case 2).
