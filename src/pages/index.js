@@ -6,6 +6,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 
+const Svg = require('../../static/img/dblo.svg').default;
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -32,9 +34,9 @@ export default function Home() {
       title={siteConfig.title}
       description="Documentation to integrate DB Consent Layer on your website">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+        <div className={styles.dblo}>
+            <Svg className={styles.dbloSvg} alt="Powered by Bahn X" />
+        </div>
     </Layout>
   );
 }

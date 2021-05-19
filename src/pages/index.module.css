@@ -23,3 +23,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.dbloSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.dblo {
+  text-align: center;
+  margin: 32px;
+}
