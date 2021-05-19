@@ -6,7 +6,7 @@ id: configuration
 # Configuration
 
 It is possible to configure some consent layer behaviour before loading the CMP, e.g. suppressing the UI on certain pages or disabling the auto-reload after consent changes.
-The configuration uses Tealium's data layer, the `utag_data` object (UDO).
+The configuration uses Tealium's data layer, the `utag_data` object (universal data object, UDO).
 
 To use the configuration, add the [options](../api/interfaces/cmpoptions.md) you need to your existing `utag_data` object.
 

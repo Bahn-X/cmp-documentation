@@ -2,8 +2,10 @@
 
 In case Adobe Launch is used to load Adobe Analytics, the easiest way to migrate is to simply integrate Launch into Tealium (tag manager into tag manager) and let Launch handle the analytics scripts.
 
-> ⚠️ This is only applicable if Adobe Launch loads one script, e.g. Analytics, which we can map to a single DSP.
-> **DO NOT** use if Launch itself loads more than a single service for which consent is required!
+:::caution
+This is only applicable if Adobe Launch loads one script, e.g. Analytics, which we can map to a single DSP.
+**DO NOT** use if Launch itself loads more than a single service for which consent is required!
+:::
 
 ## Before
 
@@ -59,13 +61,13 @@ After removing the Adobe Launch tag and adding the Tealium and `utag_data` objec
 ```
 <!-- prettier-ignore-end -->
 
-> **Note:**
->
-> - `ACCOUNT` is the Tealium account used
-> - `PROFILE` is the currently used Tealium profile, i.e. the profile used to manage your website
-> - `STAGE` is the current stage being used: `prod`, `qa` or `dev`
-> - ⚠️ **be careful to select the proper stage for your deployment target**
-
+:::note
+- `ACCOUNT` is the Tealium account used
+- `PROFILE` is the currently used Tealium profile, i.e. the profile used to manage your website
+- `STAGE` is the current stage being used: `prod`, `qa` or `dev`
+  - ⚠️ **be careful to select the proper stage for your deployment target**
+:::
+    
 This setup will:
 
 - load Tealium
