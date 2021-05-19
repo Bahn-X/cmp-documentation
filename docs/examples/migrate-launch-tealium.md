@@ -11,7 +11,7 @@ This is only applicable if Adobe Launch loads one script, e.g. Analytics, which 
 
 Consider the following example of Adobe Launch loading Adobe Analytics:
 
-<img src={require('../img/launch-analytics.png').default} width="500" alt="Adobe Launch loads Adobe Analytics"/>
+<img src={require('../../static/img/docs/launch-analytics.png').default} width="500" alt="Adobe Launch loads Adobe Analytics"/>
 
 ```html
 <head>
@@ -78,4 +78,4 @@ This setup will:
   - let Tealium load Adobe Launch tag
   - let Adobe Launch load the actual Adobe Analytics tags
 
-<img src={require("../img/tealium-launch-analytics-large.png").default} width="500" alt="Tealium loads Launch loads Analytics"/>
+<img src={require('../../static/img/docs/tealium-launch-analytics-large.png').default} width="500" alt="Tealium loads Launch loads Analytics"/>
