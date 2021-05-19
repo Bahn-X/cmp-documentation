@@ -58,13 +58,13 @@ After removing the Matomo code snippet and adding the Tealium and `utag_data` ob
 ```
 <!-- prettier-ignore-end -->
 
-> **Note:**
->
-> - `ACCOUNT` is the Tealium account used
-> - `PROFILE` is the currently used Tealium profile, i.e. the profile used to manage your website
-> - `STAGE` is the current stage being used: `prod`, `qa` or `dev`
-> - ⚠️ **be careful to select the proper stage for your deployment target**
-
+:::note
+- `ACCOUNT` is the Tealium account used
+- `PROFILE` is the currently used Tealium profile, i.e. the profile used to manage your website
+- `STAGE` is the current stage being used: `prod`, `qa` or `dev`
+  - ⚠️ **be careful to select the proper stage for your deployment target**
+:::
+  
 This setup will:
 
 - load Tealium

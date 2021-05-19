@@ -7,7 +7,9 @@ id: installation
 
 ## Add Tealium script tag to your website
 
-> see: https://docs.tealium.com/platforms/javascript/install/
+:::info
+Find the official installation guide [here](https://docs.tealium.com/platforms/javascript/install/).
+:::
 
 Adding the following snippet to a website will load Tealium and initialize its datalayer, the `utag_data` object (UDO):
 
@@ -31,8 +33,7 @@ Adding the following snippet to a website will load Tealium and initialize its d
 ```
 <!-- prettier-ignore-end -->
 
-**Note:**
-
+:::note
 - `ACCOUNT` is the Tealium account used
 - `PROFILE` is the currently used Tealium profile, i.e. the profile used to manage your website
 - `STAGE` is the current stage being used: `prod`, `qa` or `dev`
@@ -40,6 +41,7 @@ Adding the following snippet to a website will load Tealium and initialize its d
     - `dev` can include experimental features and should only be used for development
     - `qa` is meant as staging environment for testing
     - `prod` is considered stable and should be used for production
+:::
 
 ## Migrating existing tags
 
@@ -52,12 +54,16 @@ Instead of adding them directly to the website, they will be loaded via Tealium:
 - map tag(s) to a data processing service in the CMP
 - tag manager will then manage tags based on user consent
 
-> ⚠️ As tags are loaded dynamically based on consent, you have to make sure your code still works without these external scripts, e.g. before accessing global variables added by them.
->
-> By default, the page will reload after a consent change (= removal/addition of a script tag) to make sure the page is in a "fresh" state.
+:::caution
+As tags are loaded dynamically based on consent, you have to make sure your code still works without these external scripts, e.g. before accessing global variables added by them.
+
+By default, the page will reload after a consent change (removal/addition of a script tag) to make sure the page is in a "fresh" state.
+:::
+
+### Tag configuration
 
 Depending on how script tags get loaded and configured, simply replacing the tags might not be enough.
 Ideally, the external script simply gets loaded by Tealium while being configured on the website (after making sure the script was properly loaded and executed).
 For most other cases, there are predefined tags available, which can be configured in the tag manager directly.
 
-There are some examples of services being migrated to Tealium and CMP in the `docs` folder.
+There are some examples of services being migrated to Tealium and CMP under `Examples` in the sidebar.
