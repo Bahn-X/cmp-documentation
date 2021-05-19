@@ -1,3 +1,7 @@
+---
+sidebar_label: Adobe Analytics via Adobe Launch
+---
+
 # Migrating Adobe Analytics loaded via Adobe Launch to Tealium
 
 In case Adobe Launch is used to load Adobe Analytics, the easiest way to migrate is to simply integrate Launch into Tealium (tag manager into tag manager) and let Launch handle the analytics scripts.
