@@ -15,8 +15,8 @@ The current CMP in use is [Usercentrics](https://usercentrics.com/de/website-con
 The CMP and this SDK will be embedded into a website via a tag manager (Tealium).
 This makes the integration of Tealium mandatory.
 
-Ideally, loading the CMP via a script tag handles most of the cases, i.e. where external DPS are integrated with script tags as well (see Case 1 below).
-For other cases, e.g. custom implementations, there might be the need to interact with the CMP directly via this SDK (see Case 2).
+Ideally, where external data processing services (DPS) are integrated with script tags (see Case 1 below), the CMP extension in the tag manager can handle most of the cases.
+For others, e.g. custom implementations, there might be the need to interact with the CMP directly via this SDK (see Case 2).
 
 ### Case 1: Integration of DPS via script tags
 
@@ -37,11 +37,9 @@ For example when using an analytics library, before firing events it should be c
 
 ### Gather services you need consent for
 
-Find and/or add the data processing services (DPS) consent is needed for in the CMP. The CMP usually offers the most common DPS out of the box.
-If you use a custom DPS, it has to be added to the CMP first.
-These services will then appear in the consent layer, so users can manage their privacy settings (opt-in).
-
-Likewise, these services can then be managed by the SDK/CMP (loading scripts, listening to consent events, etc.).
+Find the DPS consent is needed for in the CMP, e.g. your currently used analytics solution. 
+The CMP usually offers the most common DPS out of the box, but if you use a custom DPS, it can be added to the CMP as well.
+These services will then appear in the consent layer -- so users can manage their privacy settings (opt-in) -- and are ready to be managed by the SDK/tag manager (loading scripts, listening to consent events, etc.).
 
 ### Tealium tag manager
 
