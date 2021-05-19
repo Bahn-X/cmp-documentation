@@ -19,9 +19,9 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'README',
+          docId: 'introduction',
           position: 'left',
-          label: 'Documentation',
+          label: 'Docs',
         },
       ],
     },
