@@ -13,7 +13,7 @@ To use the configuration, add the [options](../api/interfaces/cmpoptions.md) you
 ```html
 <script type="text/javascript">
   var utag_data = {
-    // see list of options
+    /* see list of options */
   };
 </script>
 ```
@@ -27,7 +27,7 @@ By default, these point to the relative paths `/impressum` and `/datenschutz`, b
 <head>
   <script type="text/javascript">
     var utag_data = {
-      // ... other options
+      /* ... other options */
       cmp_imprint_url: 'website.com/imprint',
       cmp_privacy_url: 'website.com/privacy',
     };
@@ -46,7 +46,7 @@ Suppressing the UI on a page with the **pathname** `/impressum` can be achieved 
 <head>
   <script type="text/javascript">
     var utag_data = {
-      // ... other options
+      /* ... other options */
       cmp_legal_pages: ['/impressum']
     };
   </script>
