@@ -41,9 +41,7 @@ After removing the Matomo code snippet and adding the Tealium and `utag_data` ob
 <body>
   <!-- new: Tealium universal data object -->
   <script type="text/javascript">
-    var utag_data = {
-      // ...
-    };
+    var utag_data = {};
   </script>
 
   <!-- new: Tealium tag -->

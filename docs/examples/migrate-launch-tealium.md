@@ -40,9 +40,7 @@ After removing the Adobe Launch tag and adding the Tealium and `utag_data` objec
 <head>
     <!-- existing Adobe Analytics datalayer remains -->
   <script>
-    var datalayer = {
-      // ...
-    };
+    var datalayer = {};
   </script>
 </head>
 <body>
