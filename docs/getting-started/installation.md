@@ -60,6 +60,8 @@ As tags are loaded dynamically based on consent, you have to make sure your code
 By default, the page will reload after a consent change (removal/addition of a script tag) to make sure the page is in a "fresh" state.
 :::
 
+There are some examples of services being migrated to Tealium and CMP under `Integration Guides` in the sidebar.
+
 ### Tag configuration
 
 Depending on how script tags get loaded and configured, simply replacing the tags might not be enough.
