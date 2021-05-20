@@ -1,5 +1,6 @@
 ---
-sidebar_label: Adobe Analytics via Adobe Launch
+sidebar_label: Adobe Analytics
+id: analytics_launch
 ---
 
 # Migrating Adobe Analytics loaded via Adobe Launch to Tealium
